@@ -1,0 +1,152 @@
+html{
+background-color: white;
+
+
+}
+/*the nav bar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    margin-top: -12px; 
+    justify-content: space-between;
+  color: #6900ff;
+  } 
+  
+  li {
+    float: left;
+    border-right:2px solid grey;
+   margin: auto;
+  padding: auto ;
+  
+}
+  
+  li:last-child {
+    border-right: 1px;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+  li a:hover{
+background-color:#6900ff;
+  }
+
+  
+
+/*the images */
+  * {
+    box-sizing: border-box;
+  }
+  
+  .zoomimg {
+    padding: 30px;
+    
+    transition: transform .2s;
+    
+    margin:  auto;
+  float: left;
+   justify-content: space-between;  
+   margin-right: 55px;
+  align-items: center;
+  }
+  
+  .zoomimg:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.3); 
+  }
+.term_condtions{
+font: size 21px; 
+color: aqua;
+font-family: 'Ubuntu Mono', monospace;
+}
+#shoe{
+margin-top: -150px;
+width:280px;
+ height:280px;
+margin-right:500px ;
+
+}
+
+#hoodie{
+margin-top: -150; 
+width:200px;
+ height:200px;
+
+}
+#whtguy{
+margin-top: -25px;
+width: 350px;
+ height: 299px;  
+margin-right: -100px;
+}
+
+
+
+/*Contact part */
+input[type=text], select  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-sizing: border-box;
+}
+ 
+.submit{
+  width: 100%;
+  background-color: #6900ff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+
+
+  
+}
+
+.message{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-sizing: border-box;
+
+
+}
+
+form{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+/*about me paragraph stuff*/
+#paragraph{
+font-size: medium;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: black;
+align-items: center;
+}
+
+
+
+  /*terms and Conditons*/
+
+
+
